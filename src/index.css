@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: 'Barlow Regular';
+        src: local('Barlow Regular'), local('Barlow-Regular'),
+            /* url('../public/static/styles/fonts/Barlow/BarlowCondensed-Regular.ttf') format('woff2'); */
+            url('../public/static/styles/fonts/Barlow/BarlowCondensed-Regular.ttf') format('woff2');
+
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Chalk';
+        src: local('Chalk'), local('Chalk'),
+            url('../public/static/styles/fonts/Chalk-Regular.ttf') format('ttf');
+
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'ChalklineOutline';
+        src: local('ChalklineOutline'), local('ChalklineOutline'),
+            url('../public/static/styles/fonts/ChalklineOutline-AjZM.otf') format('otf');
+
+        /* font-style: normal; */
+    }
+
+
+
+}
+
